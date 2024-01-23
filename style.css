@@ -1,0 +1,37 @@
+body{
+    background-color: #5A4E3C;
+    color: #E9EBBF;
+}
+header{
+    background-color: #D8E472;
+    padding: 2%;
+}
+nav{
+    padding: 10px;
+    background-color: #D8E472;
+}
+footer{
+    background-color: #D8E472;
+    padding: 2%;
+    color: #5A4E3C;
+}
+h1{
+    color: #5A4E3C;
+}
+.wrapper{
+    width: 85%;
+    background-color: #418E8E;
+}
+.main_content{
+    width: 59%;
+    padding: 2%;
+}
+.sidebar{
+    width: 36%;
+    padding: 2%;
+}
+
+.multi_column{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
